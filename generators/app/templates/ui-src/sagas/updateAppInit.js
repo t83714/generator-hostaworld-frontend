@@ -1,9 +1,9 @@
 import { call, put } from "redux-saga/effects";
-import { optionDataUpdate } from "../actions";
+import { otherDataUpdate } from "../actions";
 
 export default function* updateAppInit({ payload }) {
     try {
-        yield put(optionDataUpdate({
+        yield put(otherDataUpdate({
             isAppInit: true,
         }));
     } catch (e) {
