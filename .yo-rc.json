@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Jacky Jiang",
+      "authorEmail": "t83714@gmail.com",
+      "authorUrl": "https://github.com/t83714"
+    }
+  }
+}
