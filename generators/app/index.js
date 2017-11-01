@@ -76,7 +76,7 @@ module.exports = class extends Generator {
 
   install() {
     this.npmInstall([
-        "bootstrap",
+        "bootstrap@4.0.0-beta.2",
         "font-awesome",
         "jquery",
         "lodash",
